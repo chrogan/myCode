@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""This was a challenge for SHEBAND, input, print,concatenate, and variables"""
+"""This was a challenge for SHEBANG, input, print,concatenate, and variables"""
 
 
 def main():
