@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
+<<<<<<< HEAD
 """This was a challenge for SHEBANG, input, print, concatenate, and variables"""
+=======
+"""This was a challenge for SHEBANG, input, print,concatenate, and variables"""
+>>>>>>> 0816a32eb2784adf054984d3a1836ff3fb24f7cf
 
 
 def main():
