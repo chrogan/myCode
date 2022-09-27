@@ -24,12 +24,12 @@ def main():
 
     # the .json() method will dump a JSON string into Pythonic data structures. COOL!
     # This is much easier than using the urllib.request library
-    cards = resp.json().get("{setcode}")
+    cards = resp.json().get("cards")
     setcode = setcode.upper()
 
     with open(f"{setcode}_cards.set", "w") as new_file:
-            
-        print(f"{cards}", file = new_file)
+        for card in cards:            
+            print(f"{card.get('name')}", file = new_file)
 
 
 if __name__ == "__main__":
